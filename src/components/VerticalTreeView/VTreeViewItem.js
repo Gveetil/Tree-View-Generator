@@ -36,8 +36,7 @@ export default function VTreeViewItem(props) {
                 <div className={connectorClassName}>
                 </ div>}
             <div className="px-2 text-center">
-
-                <div className="tree-view-item mx-auto"
+                <div className={`tree-view-item mx-auto ${props.isRoot ? " rootnode" : ""}`}
                     id={`node${props.id}`}
                     title={props.name}>
                     <div className="display-name">{props.name}</div>

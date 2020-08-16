@@ -10,7 +10,7 @@ export default function HorizontalTreeView() {
 
     // on load, scroll the root node into view 
     useEffect(() => {
-        const rootNode = document.querySelector("#node1");
+        const rootNode = document.querySelector(".rootnode");
         if (rootNode) {
             rootNode.scrollIntoView({ behavior: "smooth", block: "center", inline: "center" });
         }
@@ -18,7 +18,7 @@ export default function HorizontalTreeView() {
     });
 
     return (
-        <div className="d-flex flex-column pt-5 pl-3 flex-nowrap">
+        <div className="d-flex flex-column pt-2 px-3 pb-2 flex-nowrap">
             {renderTreeNodes(state.treeData)}
         </div>
     );

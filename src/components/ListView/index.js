@@ -9,7 +9,7 @@ export default function ListView() {
     const [state, _] = useAppContext();
 
     return (
-        <div className="d-flex flex-column pt-5 pl-3 flex-nowrap">
+        <div className="d-flex flex-column pt-4 pl-3 flex-nowrap">
             {renderTreeNodes(state.treeData)}
         </div>
     );

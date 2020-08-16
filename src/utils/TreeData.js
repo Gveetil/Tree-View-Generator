@@ -18,6 +18,7 @@ export default class TreeData {
     }
 }
 
+// Represents a node in the tree
 export class TreeNode {
     constructor(parent, id, name, value) {
         this.parent = parent

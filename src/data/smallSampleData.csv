@@ -5,9 +5,21 @@ id,name,parent_id,value
 4,Hanson,3,36.46
 5,Fulton,1,6.92
 6,Ruskin,5,5.35
-7,Lake View,3,77.96
 8,Merchant,6,60.09
 11,5th,2,62.42
 12,Sundown,11,55.13
-14,Spenser,3,80.57
-15,Browning,6,28.2
+18,Reindahl,4,97.24
+76,Farwell,18,30.06
+75,Troy,12,87.66
+140,Hagan,12,15.43
+84,Alpine,8,4.05
+181,Shasta,84,64.14
+722,Lukken,84,62.87
+119,Anniversary,5,74.2
+296,Kinsman,119,73.67
+426,Merry,181,27.71
+997,Jackson,181,44.93
+765,Kim,426,12.85
+133,Crowley,75,47.75
+445,Bunting,133,58.65
+499,Swallow,75,34.06

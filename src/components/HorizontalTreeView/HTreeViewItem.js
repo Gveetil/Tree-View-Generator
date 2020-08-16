@@ -33,23 +33,27 @@ export default function HTreeViewItem(props) {
     return (
         <div key={props.id} className="d-flex flex-row">
             {connectorClassName &&
-                <div className={connectorClassName}>
+                <div className="inline-flex">
+                    <div className={connectorClassName}>
+                    </ div>
                 </ div>}
             <div className="py-2 my-auto">
-                <div className="tree-view-item h-auto my-auto" title={props.name}>
+                <div className={`tree-view-item h-auto ${props.isRoot ? " rootnode" : ""}`}
+                    id={`node${props.id}`}
+                    title={props.name}>
                     <div className="display-name">{props.name}</div>
                     <div className="display-value">{props.value}</div>
                     <div className="display-total pr-2">{props.total.toFixed(2)}</div>
-                    {props.children && props.children.length > 0 &&
-                        <a href="/" className="my-auto expand-button h-expand-offset"
-                            onClick={handleClick}>
-                            {showChildren ?
-                                <i className="fa fa-minus-square" aria-hidden="true"></i>
-                                :
-                                <i className="fa fa-plus-square" aria-hidden="true"></i>}
-                        </a>}
                 </ div>
             </div>
+            {props.children && props.children.length > 0 &&
+                <a href="/" className="my-auto expand-button h-expand-offset"
+                    onClick={handleClick}>
+                    {showChildren ?
+                        <i className="fa fa-minus-square" aria-hidden="true"></i>
+                        :
+                        <i className="fa fa-plus-square" aria-hidden="true"></i>}
+                </a>}
             {
                 props.children && props.children.length > 0 && showChildren &&
                 (<>

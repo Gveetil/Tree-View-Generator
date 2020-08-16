@@ -6,8 +6,9 @@
   max-height: 0.15rem;
   height: 0.15rem;
   background-color: #598bf7;
-  margin-top: auto;
-  margin-bottom: auto;
+  position: relative;
+  top: 50%;
+  bottom: 50%;
 }
 
 .h-bottom-connector {
@@ -15,7 +16,9 @@
   width: 1.5rem;
   border-left: 0.15rem solid #598bf7; 
   border-top: 0.15rem solid #598bf7;
-  margin-top:auto;
+  position: relative;
+  top: 50%;
+  left: 0%;
 }
 
 .h-top-connector {
@@ -43,6 +46,7 @@
 }
 
 .h-expand-offset{
-  margin-left: -5px;
-  margin-right: -7px;
+  position: relative;
+  margin-left: -6px;
+  margin-right: -5px;
 }

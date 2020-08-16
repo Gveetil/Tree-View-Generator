@@ -10,7 +10,7 @@ export default function VerticalTreeView() {
 
     // on load, scroll the root node into view 
     useEffect(() => {
-        const rootNode = document.querySelector("#node1");
+        const rootNode = document.querySelector(".rootnode");
         if (rootNode) {
             rootNode.scrollIntoView({ behavior: "smooth", block: "center", inline: "center" });
         }
@@ -18,7 +18,7 @@ export default function VerticalTreeView() {
     });
 
     return (
-        <div className="d-flex flex-row pt-5 flex-nowrap mx-auto">
+        <div className="d-flex flex-row pt-4 pb-3 flex-nowrap mx-auto">
             {renderTreeNodes(state.treeData)}
         </div>
     );

@@ -5,8 +5,12 @@ import VerticalTreeView from '../components/VerticalTreeView';
 export default function VerticalTree(props) {
 
     return (
-        <div className="scroll-wrapper">
-            <VerticalTreeView />
-        </div>
+        <>
+            <h4 className="text-center pt-4 pb-2">Vertical Tree View </h4>
+            <hr class="my-auto mt-3" />
+            <div className="scroll-wrapper">
+                <VerticalTreeView />
+            </div>
+        </>
     );
 }

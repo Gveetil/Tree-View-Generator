@@ -5,8 +5,13 @@ import ListView from '../components/ListView';
 export default function Homepage(props) {
 
     return (
-        <div className="scroll-wrapper">
-            <ListView />
-        </div>
+        <>
+
+            <h4 className="text-center pt-4 pb-2">Tree List View </h4>
+            <hr class="my-auto mt-3" />
+            <div className="container list-view-wrapper justify-content-center">
+                <ListView />
+            </div>
+        </>
     );
 }

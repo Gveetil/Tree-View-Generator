@@ -12,7 +12,7 @@ export default function ListViewItem(props) {
 
     return (
         <div key={props.id} >
-            <div className="d-flex flex-row flex-nowrap">
+            <div className="d-flex flex-row flex-nowrap mb-1 ">
                 {props.children && props.children.length > 0 &&
                     <a href="/" className="my-auto expand-button l-expand-offset"
                         onClick={handleClick}>
@@ -21,7 +21,7 @@ export default function ListViewItem(props) {
                             :
                             <i className="fa fa-plus-square" aria-hidden="true"></i>}
                     </a>}
-                <div className="tree-view-item ml-3 mb-1 l-list-item" title={props.name}>
+                <div className="tree-view-item ml-3 l-list-item" title={props.name}>
                     <div className="display-name">{props.name}</div>
                     <div className="display-value l-value-width">{props.value}</div>
                     <div className="display-total l-value-width">{props.total.toFixed(2)}</div>
@@ -29,6 +29,9 @@ export default function ListViewItem(props) {
             </div>
             {props.children && props.children.length > 0 && showChildren &&
                 <div className="d-flex flex-row flex-nowrap">
+                    {props.children.length > 0 &&
+                        <div className="justify-content-stretch l-vertical-connector">
+                        </ div>}
                     < div key={props.id} className="d-flex flex-column flex-nowrap w-100 pl-3">
                         {props.children}
                     </ div>

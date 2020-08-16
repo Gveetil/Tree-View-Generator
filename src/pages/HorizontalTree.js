@@ -5,8 +5,12 @@ import HorizontalTreeView from '../components/HorizontalTreeView';
 export default function HorizontalTree(props) {
 
     return (
-        <div className="scroll-wrapper">
-            <HorizontalTreeView />
-        </div>
+        <>
+            <h4 className="text-center pt-4 pb-2">Horizontal Tree View </h4>
+            <hr class="my-auto mt-3" />
+            <div className="scroll-wrapper">
+                <HorizontalTreeView />
+            </div>
+        </>
     );
 }
