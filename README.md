@@ -37,7 +37,7 @@ Example:
 
 ## Technical Features
 
-The Tree View Generator is built purely using React and Bootstrap. Sample data for the application is loaded from two csv files which can are located in the `src > data` folder. The application is currently published as a static site on GitHub Pages. <br>
+The Tree View Generator is built purely using React and Bootstrap. Sample data for the application is loaded from two csv files which are located in the `src > data` folder. The application is currently published as a static site on GitHub Pages. <br>
 
 ## Usage Guidelines
 
