@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Tree-View-Generator/static/css/main.e2a1d6e6.chunk.css",
+    "main.js": "/Tree-View-Generator/static/js/main.3ab3a120.chunk.js",
+    "main.js.map": "/Tree-View-Generator/static/js/main.3ab3a120.chunk.js.map",
+    "runtime-main.js": "/Tree-View-Generator/static/js/runtime-main.f4313290.js",
+    "runtime-main.js.map": "/Tree-View-Generator/static/js/runtime-main.f4313290.js.map",
+    "static/js/2.4ddf875d.chunk.js": "/Tree-View-Generator/static/js/2.4ddf875d.chunk.js",
+    "static/js/2.4ddf875d.chunk.js.map": "/Tree-View-Generator/static/js/2.4ddf875d.chunk.js.map",
+    "index.html": "/Tree-View-Generator/index.html",
+    "precache-manifest.cb7f5215992a8f6f74f9d9259ccdf1fe.js": "/Tree-View-Generator/precache-manifest.cb7f5215992a8f6f74f9d9259ccdf1fe.js",
+    "service-worker.js": "/Tree-View-Generator/service-worker.js",
+    "static/css/main.e2a1d6e6.chunk.css.map": "/Tree-View-Generator/static/css/main.e2a1d6e6.chunk.css.map",
+    "static/js/2.4ddf875d.chunk.js.LICENSE.txt": "/Tree-View-Generator/static/js/2.4ddf875d.chunk.js.LICENSE.txt",
+    "static/media/largeSampleData.csv": "/Tree-View-Generator/static/media/largeSampleData.5fe0b2a8.csv",
+    "static/media/smallSampleData.csv": "/Tree-View-Generator/static/media/smallSampleData.7863d8c3.csv"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f4313290.js",
+    "static/js/2.4ddf875d.chunk.js",
+    "static/css/main.e2a1d6e6.chunk.css",
+    "static/js/main.3ab3a120.chunk.js"
+  ]
+}
