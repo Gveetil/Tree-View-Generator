@@ -1,0 +1,19 @@
+/* styles used by the list view component */
+
+.l-list-item{
+  background-color: gainsboro;
+  border: none;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.l-expand-offset{
+  margin-right: -8px;
+  margin-left: -6px; 
+}
+
+.l-value-width {
+  width: 5rem;
+  min-width: 5rem;
+  text-align: right;
+}

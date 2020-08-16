@@ -1,0 +1,71 @@
+.page-navbar-offset{
+    padding-top: 3rem;
+}
+
+.scroll-wrapper {
+  flex: 1;
+  display: flex;
+  height: 100%;
+}
+
+.tree-view-item{
+  display: flex;
+  flex-wrap: nowrap;
+  border: 2px solid #598bf7;
+  border-radius: 7px;
+  font-size: 0.8rem;
+  line-height: 1.3rem;
+  min-width: 10rem;
+  max-width: 10rem;
+}
+
+.display-name{
+  margin: 0.1rem;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  text-align: left;
+  overflow:hidden;
+  text-overflow: ellipsis;
+}
+
+.display-value,
+.display-total {
+  margin: 0.1rem;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  text-align: center;
+  border-radius: 0.2rem;
+  line-height: 1.5rem;
+  font-size: 0.7rem;
+}
+
+.display-total {
+  background-color: powderblue;
+}
+
+.display-value{
+  background-color: lavender;
+  margin-left: auto;
+}
+
+.expand-button{
+  line-height: 0px;
+  z-index: 100;
+  opacity: 1;
+  background-color:  white; 
+  color:#598bf7;
+}
+
+/* custom radio checked state */
+.custom-radio .custom-control-input:checked~.custom-control-label::before,
+.custom-radio .custom-control-input:checked~.custom-control-label::after {
+  background-color: lightblue;
+  border-radius: 50%;
+}
+
+/* scale margins for smaller viewports*/
+@media (max-width: 800px) {
+    .page-navbar-offset {
+        padding-top: 14rem;
+    }
+  }

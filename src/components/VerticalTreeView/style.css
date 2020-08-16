@@ -1,0 +1,49 @@
+/* styles used by the vertical tree view component */
+
+.v-vertical-connector {
+  width: 0.15rem;
+  height: 1.5rem;
+  background-color: #598bf7;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.v-left-connector {
+  width: 50%;
+  height: 1.5rem;
+  border-top: 0.15rem solid #598bf7;
+  border-left: 0.15rem solid #598bf7;
+  margin-left:  50%;
+}
+
+.v-right-connector {
+  width: 50%;
+  height: 1.5rem;
+  border-top: 0.15rem solid #598bf7;
+  border-right: 0.15rem solid #598bf7;
+  margin-right:  50%;
+}
+
+.v-horizontal-connector {
+  width: 100%;
+  height: 1.5rem;
+  position:relative;
+  border-top: 0.15rem solid #598bf7;
+}
+
+.v-horizontal-connector::after {
+  content:"";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  border-left: 0.15rem solid #598bf7;
+  transform: translate(-50%);
+}
+
+.v-expand-offset{
+  margin-bottom: -8px;
+  margin-top: -8px;
+  margin-right: auto;
+  margin-left: auto;
+}

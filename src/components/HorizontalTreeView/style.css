@@ -1,0 +1,48 @@
+/* styles used by the horizontal tree view component */
+
+.h-horizontal-connector {
+  max-width: 1.5rem;
+  width: 1.5rem;
+  max-height: 0.15rem;
+  height: 0.15rem;
+  background-color: #598bf7;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.h-bottom-connector {
+  height: 50%;
+  width: 1.5rem;
+  border-left: 0.15rem solid #598bf7; 
+  border-top: 0.15rem solid #598bf7;
+  margin-top:auto;
+}
+
+.h-top-connector {
+  height: 50%;
+  width: 1.5rem;
+  border-left: 0.15rem solid #598bf7;
+  border-bottom: 0.15rem solid #598bf7;
+  margin-bottom: auto;
+}
+
+.h-vertical-connector {
+  height: 100%;
+  width: 1.5rem;
+  position:relative;
+  border-left: 0.15rem solid #598bf7;
+}
+
+.h-vertical-connector::after {
+  content:"";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  border-top: 0.15rem solid #598bf7;
+}
+
+.h-expand-offset{
+  margin-left: -5px;
+  margin-right: -7px;
+}
